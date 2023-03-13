@@ -26,7 +26,7 @@ public class Utility {
 
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File source  = ts.getScreenshotAs(OutputType.FILE);
-		File dest = new File("C:\\Users\\jumal\\Downloads\\Automation\\ScreesnshotFlipkartAutomation"
+		File dest = new File("C:\\Users\\jumal\\Downloads\\Automation\\ScreenShotFlipkartOriginal"
 				+testID+" "+result+".jpeg");
 		FileHandler.copy(source, dest);
 		}
